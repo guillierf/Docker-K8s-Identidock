@@ -22,3 +22,8 @@ docker-compose up -d
 
 Kubernetes: Deploy the App
 ==========
+
+```
+cd ../Deploy-Kubernetes
+kubectl create -f 
+```
