@@ -20,6 +20,14 @@ Deploy the app:
 docker-compose up -d
 ```
 
+Check:
+```
+curl localhost:5000
+```
+or open a web browser with the URL:
+http://localhost:5000
+
+
 Kubernetes: Deploy the App
 ==========
 
