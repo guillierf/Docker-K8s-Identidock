@@ -62,5 +62,6 @@ kubectl create -f redis-pod.yml -f redis-service.yml
 
 Check the app:
 
+```
 http://<Worker Node IP>:<Node Port>
-
+```
