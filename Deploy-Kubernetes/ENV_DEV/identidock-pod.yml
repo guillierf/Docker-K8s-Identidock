@@ -8,6 +8,9 @@ metadata:
 spec: 
   containers: 
     - image: guillierf/identidock
-      name: identidock
+      name: web
+      env:
+        - name: "ENV"
+          value: "DEV"
       ports: 
-- containerPort: 5000
+       - containerPort: 5000
