@@ -20,6 +20,11 @@ Test the image:
 docker run guillierf/identidock
 ```
 
+Push the image to Docker hub:
+```
+docker push guillierf/identidock
+```
+
 Deploy the app:
 ```
 docker-compose up -d
