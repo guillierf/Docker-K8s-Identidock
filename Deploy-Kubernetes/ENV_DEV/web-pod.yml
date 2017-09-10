@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: identidock
+  name: web
   labels:
     name: web
     app: identidock
