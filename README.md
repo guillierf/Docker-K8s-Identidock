@@ -42,7 +42,25 @@ http://localhost:5000
 Kubernetes: Deploy the App
 ==========
 
+If you want to test with env var ENV=DEV:
 ```
-cd ../Deploy-Kubernetes
-kubectl create -f 
+cd ../Deploy-Kubernetes/ENV_DEV/
+kubectl create -f web-pod.yml -f web-service.yml
+kubectl create -f dnmonster-pod.yml -f dnmonster-service.yml
+kubectl create -f redis-pod.yml -f redis-service.yml
 ```
+
+
+If you want to test with env var ENV=PROD:
+```
+cd ../Deploy-Kubernetes/ENV_PROD/
+kubectl create -f web-pod.yml -f web-service.yml
+kubectl create -f dnmonster-pod.yml -f dnmonster-service.yml
+kubectl create -f redis-pod.yml -f redis-service.yml
+```
+
+
+Check the app:
+
+http://<Worker Node IP>:<Node Port>
+
