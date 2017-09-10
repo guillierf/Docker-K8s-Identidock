@@ -49,6 +49,10 @@ kubectl create -f web-pod.yml -f web-service.yml
 kubectl create -f dnmonster-pod.yml -f dnmonster-service.yml
 kubectl create -f redis-pod.yml -f redis-service.yml
 ```
+or
+```
+for i in `ls`; do kubectl create -f  $i; done
+```
 
 
 If you want to test with env var ENV=PROD:
@@ -57,6 +61,10 @@ cd ../Deploy-Kubernetes/ENV_PROD/
 kubectl create -f web-pod.yml -f web-service.yml
 kubectl create -f dnmonster-pod.yml -f dnmonster-service.yml
 kubectl create -f redis-pod.yml -f redis-service.yml
+```
+or
+```
+for i in `ls`; do kubectl create -f  $i; done
 ```
 
 
