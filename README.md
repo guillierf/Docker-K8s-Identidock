@@ -28,6 +28,7 @@ or open a web browser with the URL:
 http://localhost:5000
 
 
+
 Kubernetes: Deploy the App
 ==========
 
