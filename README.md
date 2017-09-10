@@ -15,6 +15,11 @@ cd Build-Docker
 docker build . -t <your username>/identidock
 ```
 
+Test the image:
+```
+docker run guillierf/identidock
+```
+
 Deploy the app:
 ```
 docker-compose up -d
